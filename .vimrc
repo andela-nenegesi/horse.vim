@@ -54,6 +54,9 @@ call vundle#rc()
     autocmd FileType haskell setlocal commentstring=--\ %s
     " Workaround broken colour highlighting in Haskell
     autocmd FileType haskell setlocal nospell
+    
+    filetype plugin on              "turn on support for filetype plugins"
+    filetype indent on              "autoindent based on the filetype"
 
 " }
 
